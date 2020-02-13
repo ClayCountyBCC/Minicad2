@@ -1,5 +1,5 @@
 ﻿import React, { useState, useEffect } from 'react';
-import { Store } from './Store';
+import { Store } from '../Store';
 //import { IFetchData } from './interfaces';
 
 export const useFetchData = (baseFetchData: Function, dispatch_type: string, initial_load: boolean) =>
